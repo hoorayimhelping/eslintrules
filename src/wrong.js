@@ -4,6 +4,7 @@ const right = (correct) => {
   return correct === 'correct';
 };
 
+let nope;
 // ff statements
 if (wrong('incorrect')) nope = 'nope';
 if (nope === 'nope') { console.log('still nope'); }
@@ -51,7 +52,7 @@ noWarning();
 noWarningBest();
 
 // odds and ends
-let nope = undefined;
+nope = undefined;
 parseInt('10');
 ['nope', 'nope', 'nope', 'nope',];
 const SHOULD_USE_I_USE_CONVICT = process.env.USE_CONVICT_INSTEAD;
