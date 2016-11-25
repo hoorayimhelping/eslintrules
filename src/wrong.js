@@ -4,8 +4,8 @@ const right = (correct) => {
   return correct === 'correct';
 };
 
+// if statements
 let nope;
-// ff statements
 if (wrong('incorrect')) nope = 'nope';
 if (nope === 'nope') { console.log('still nope'); }
 if (nope === 'nope')
